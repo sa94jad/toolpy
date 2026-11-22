@@ -1,7 +1,7 @@
 """Pypax94s: a small Python utility library by Sajjad."""
 
 import random
-
+import secrets
 __version__ = "1.3.1"
 __author__ = "Saj94ad"
 
@@ -133,7 +133,11 @@ def amk():
 		
 	except:
 		print("عدد وارد کنید!")
-amk()
+
+def make_password():
+	t = secrets.randbelow(999999)
+	print(t)
+
 # Compatibility aliases for names used in earlier releases.
 game_randomac = game_random
 randomat_randiout = random_randiout
