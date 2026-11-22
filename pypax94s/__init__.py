@@ -70,7 +70,27 @@ def run():
 def break_code():
 	while True:
 		break
-
+from colorama import init , Fore , Style
+def select_color():
+	choose_color = input("RED , GREEN , WHITE , CYAN , BLUE:  ")
+	wordds = input("کلمه یا جمله ای که میخواهید رنگی شود.")
+	if choose_color == "RED":
+		print(Fore.RED + wordds)
+	
+	elif choose_color == "BLUE":
+		print(Fore.BLUE + wordds)
+	
+	elif choose_color == "CYAN":
+		print(Fore.CYAN + wordds)
+	
+	elif choose_color == "GREEN":
+		print(Fore.GREEN + wordds)
+	
+	elif choose_color == "WHITE":
+		print(Rore.WHITE + wordds)
+	
+	else:
+		print("رنگ پشتیبان نمی شود!")
 # Compatibility aliases for names used in earlier releases.
 game_randomac = game_random
 randomat_randiout = random_randiout
