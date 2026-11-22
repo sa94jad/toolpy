@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pypax"
+version = "0.1.0"
+description = "A small Python library created by Sajjad."
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{ name = "Sajjad" }]
+license = { text = "MIT" }
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Operating System :: OS Independent"
+]
+
+[tool.setuptools]
+py-modules = ["pypax"]
