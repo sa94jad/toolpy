@@ -1,4 +1,4 @@
-"""Pypax94s: a tiny Python utility module by Sajjad."""
+"""Pypax94s: a small Python utility library by Sajjad."""
 
 import random
 
@@ -7,12 +7,12 @@ __author__ = "Sajjad"
 
 
 def prt(name):
-    """Print the given value."""
+    """Print the value passed to the function."""
     print(name)
 
 
 def game_random():
-    """Play a number-guessing game using a number from 1 to 10."""
+    """Guess a random integer from 1 to 10."""
     try:
         answer = int(input("عددتان از ۱ تا ۱۰: "))
     except ValueError:
@@ -20,7 +20,7 @@ def game_random():
         return
 
     if not 1 <= answer <= 10:
-        print("فقط عددهای ۱ تا ۱۰ مجاز هستند.")
+        print("فقط عددهای ۱ تا ۱۰ مجاز هستند!")
         return
 
     number = random.randint(1, 10)
@@ -32,8 +32,8 @@ def game_random():
 
 
 def random_randiout():
-    """Return a random float in the range [0.0, 1.0)."""
-    return random.random()
+    """Print a random floating-point number from 0.0 up to (but not including) 1.0."""
+    print(random.random())
 
 
 def random_game_sqw():
@@ -42,7 +42,7 @@ def random_game_sqw():
     player = input("سنگ / کاغذ / قیچی: ").strip()
 
     if player not in choices:
-        print("لطفاً فقط از بین سنگ، کاغذ و قیچی انتخاب کنید!")
+        print("لطفاً فقط از بین سنگ، کاغذ و قیچی استفاده کنید!")
         return
 
     computer = random.choice(choices)
@@ -61,5 +61,5 @@ def random_game_sqw():
 
 
 def pay():
-    """Print the value of pi to eight decimal places."""
+    """Print pi."""
     print(3.14159265)
