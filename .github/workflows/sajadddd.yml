@@ -1,9 +1,9 @@
-name: Build and publish Pypax to PyPI
+name: Build and publish Pypax94s to PyPI
 
 on:
   push:
     tags:
-      - "pypax-v*"
+      - "pypax94s-v*"
   workflow_dispatch:
 
 permissions:
@@ -32,7 +32,7 @@ jobs:
       - name: Upload distributions as workflow artifact
         uses: actions/upload-artifact@v4
         with:
-          name: pypax-distributions
+          name: pypax94s-distributions
           path: dist/
 
   publish:
@@ -42,14 +42,14 @@ jobs:
     timeout-minutes: 300
     environment:
       name: pip
-      url: https://pypi.org/project/pypax/
+      url: https://pypi.org/project/pypax94s/
     permissions:
       id-token: write
     steps:
       - name: Download built distributions
         uses: actions/download-artifact@v4
         with:
-          name: pypax-distributions
+          name: pypax94s-distributions
           path: dist/
       - name: Publish package
         uses: pypa/gh-action-pypi-publish@release/v1
