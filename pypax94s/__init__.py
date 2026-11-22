@@ -67,6 +67,9 @@ def pay():
 def run():
 	while True:
 		continue
+def break_code():
+	while True:
+		break
 
 # Compatibility aliases for names used in earlier releases.
 game_randomac = game_random
