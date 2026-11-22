@@ -95,7 +95,6 @@ def len_word():
 	word_len = input("کلمه:  ")
 	print(len(word_len))
 
-len_word()
 # Compatibility aliases for names used in earlier releases.
 game_randomac = game_random
 randomat_randiout = random_randiout
