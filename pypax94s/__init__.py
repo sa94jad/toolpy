@@ -94,6 +94,31 @@ def select_color():
 def len_word():
 	word_len = input("کلمه:  ")
 	print(len(word_len))
+def calculator():
+	try:
+	#سه متغیر
+		o = int(input("عدد اول:   "))
+		n = input("علامت:  ")
+		s = int(input("عدد آخر:   "))
+		if n == "+":
+			print(o + s)
+	
+		elif n == "×":
+			print(o * s)
+	
+		elif n == "-":
+			print(o - s)
+	
+		elif n == "÷":
+			print(o // s)
+	
+		elif n == "/":
+			print(o / s)
+	
+		else:
+			print("علامت یا در ماشین حساب نیست یا عدد نامعتبر است!")
+	except:
+		print("لطفا عدد وارد کنید")
 
 # Compatibility aliases for names used in earlier releases.
 game_randomac = game_random
