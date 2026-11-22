@@ -64,6 +64,9 @@ def pay():
     """Print pi to 8 decimal places."""
     print(3.14159265)
 
+def run():
+	while True:
+		continue
 
 # Compatibility aliases for names used in earlier releases.
 game_randomac = game_random
