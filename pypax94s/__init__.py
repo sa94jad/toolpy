@@ -133,7 +133,7 @@ def amk():
 		
 	except:
 		print("عدد وارد کنید!")
-
+amk()
 # Compatibility aliases for names used in earlier releases.
 game_randomac = game_random
 randomat_randiout = random_randiout
