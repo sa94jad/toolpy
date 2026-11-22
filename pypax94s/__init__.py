@@ -1,7 +1,6 @@
 """Pypax94s: a tiny Python utility module by Sajjad."""
 
 import random
-import time
 
 __version__ = "0.2.0"
 __author__ = "Sajjad"
