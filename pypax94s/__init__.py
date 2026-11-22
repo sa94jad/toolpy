@@ -2,7 +2,7 @@
 
 import random
 
-__version__ = "0.3.1"
+__version__ = "0.4.0"
 __author__ = "Sajjad"
 
 
@@ -11,8 +11,8 @@ def prt(name):
     print(name)
 
 
-def game_randomac():
-    """Guess a random integer from 1 to 10."""
+def game_random():
+    """Play a number-guessing game using a random number from 1 to 10."""
     try:
         answer = int(input("عددتان از ۱ تا ۱۰: "))
     except ValueError:
@@ -28,11 +28,11 @@ def game_randomac():
         print("درسته")
     else:
         print("غلطه")
-        print("عدد درست:", number)
+        print(number)
 
 
-def randomat_randiout():
-    """Print a random float in the range [0.0, 1.0)."""
+def random_randiout():
+    """Print a random float from 0.0 up to (but not including) 1.0."""
     print(random.random())
 
 
@@ -46,7 +46,7 @@ def random_game_sqw():
         return
 
     computer = random.choice(choices)
-    print("انتخاب کامپیوتر:", computer)
+    print(computer)
 
     if player == computer:
         print("مساوی")
@@ -61,10 +61,10 @@ def random_game_sqw():
 
 
 def pay():
-    """Print pi."""
+    """Print pi to 8 decimal places."""
     print(3.14159265)
 
 
-# Backward-compatible names from the earlier release:
-game_random = game_randomac
-random_randiout = randomat_randiout
+# Compatibility aliases for names used in earlier releases.
+game_randomac = game_random
+randomat_randiout = random_randiout
