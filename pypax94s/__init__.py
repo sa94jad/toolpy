@@ -2,8 +2,8 @@
 
 import random
 
-__version__ = "0.4.0"
-__author__ = "Sajjad"
+__version__ = "1.3.1"
+__author__ = "Saj94ad"
 
 
 def prt(name):
