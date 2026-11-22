@@ -119,6 +119,20 @@ def calculator():
 			print("علامت یا در ماشین حساب نیست یا عدد نامعتبر است!")
 	except:
 		print("لطفا عدد وارد کنید")
+def amk():
+	try:
+		num= int(input("عددتان:  "))
+	
+		if num % 2 == 0:
+			print("زوج")
+	
+		else:
+			print("فرد")
+	
+
+		
+	except:
+		print("عدد وارد کنید!")
 
 # Compatibility aliases for names used in earlier releases.
 game_randomac = game_random
