@@ -11,6 +11,7 @@ def prt(name):
     print(name)
 
 
+
 def game_random():
     """Play a number-guessing game using a random number from 1 to 10."""
     try:
