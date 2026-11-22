@@ -60,7 +60,7 @@ def random_game_sqw():
         print("باختی")
 
 
-def pay():
+def pi():
     """Print pi to 8 decimal places."""
     print(3.14159265)
 
