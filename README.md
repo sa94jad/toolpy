@@ -1,6 +1,6 @@
-# Pypax
+# Pypax94s
 
-Pypax is a small Python library created by Sajjad.
+Pypax94s is a small Python library created by Sajjad.
 
 ## Example
 
