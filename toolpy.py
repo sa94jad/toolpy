@@ -130,6 +130,9 @@ def internetofiran():
     print("متصل")
 
 
+def prt(name):
+    print(name)
+
 __version__ = "0.4"
 __author__ = "Sajjad (@saj94jad)"
 
