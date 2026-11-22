@@ -1,11 +1,21 @@
 # Pypax94s
 
-Pypax94s is a small Python library created by Sajjad.
+A small Python library created by Sajjad.
 
-## Example
+## Install from GitHub
+
+```bash
+pip install https://github.com/sa94jad/toolpy/archive/refs/heads/main.zip
+```
+
+## Usage
 
 ```python
-import pypax
+from pypax94s import *
 
-pypax.prt("Hello!")
+prt("Hello, Sajjad!")
 ```
+
+## Current function
+
+`prt(name)` prints the value passed to it.
