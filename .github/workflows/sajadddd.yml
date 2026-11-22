@@ -13,6 +13,7 @@ jobs:
   build:
     name: Build Python distributions
     runs-on: ubuntu-latest
+    timeout-minutes: 300
     steps:
       - name: Check out source
         uses: actions/checkout@v4
@@ -38,6 +39,7 @@ jobs:
     name: Publish to PyPI
     needs: build
     runs-on: ubuntu-latest
+    timeout-minutes: 300
     environment:
       name: pip
       url: https://pypi.org/project/pypax/
