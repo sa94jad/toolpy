@@ -2,6 +2,7 @@
 
 import random
 import secrets
+import datetime
 __version__ = "1.3.1"
 __author__ = "Saj94ad"
 
@@ -138,6 +139,9 @@ def make_password():
 	t = secrets.randbelow(999999)
 	print(t)
 
+def time_H_new():
+	print(datetime.datetime.now().hour)
+time_H_new()
 # Compatibility aliases for names used in earlier releases.
 game_randomac = game_random
 randomat_randiout = random_randiout
