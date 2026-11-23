@@ -139,6 +139,14 @@ def make_password():
 	t = secrets.randbelow(999999)
 	print(t)
 
+def readfile():
+	try:
+		read = input("نام فایلتان:  ")
+		with open(read , "r") as f:
+			text = f.read()
+			print(text)
+	except:
+		print("فایل یافت نشد!")
 def time_H_new():
 	print(datetime.datetime.now().hour)
 time_H_new()
