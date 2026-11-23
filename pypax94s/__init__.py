@@ -178,7 +178,7 @@ def my_ping():
 	t = ping("8.8.8.8")
 	print(f"Your ping:  {round(t * 1000)} ms" if t else "درخواست نیومد")
 
-def sqrt_rand()
+def sqrt_rand():
 	try:
 		sqrt = int(input("عدد مورد نظر برای دریافت رادیکال:   "))
 		print(math.sqrt(sqrt))
