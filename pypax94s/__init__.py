@@ -153,25 +153,7 @@ def time_H_new():
 	print(datetime.datetime.now().hour)
 time_H_new()
 
-def data_library():
-	print("سلام به کتاب خونه pypax خوش اومیدید.")
-	print("نسخه: 2.1.1")
-	print("اطلاعات کتاب خانه:")
-	print("prt("")" , "برای چاپ متن: ")
-	print("game_random()" , "بازی حدس عدد")
-	print("random_randiout()" , "عدد رندوم بین 0 . 1")
-	print("random_game_sqw()" , "بازی سنگ کاغذ غیچی")
-	print("pi()" , "نمایش عدد پی")
-	print("run()" , "حلقه ای بی اتمام ایجاد میکند")
-	print("break_code()" , "به کد پایان میدهد")
-	print("len_word()" , "میتوانید بعد اجرای این تابع کلمه ای توی ترمینال بزنید و تعداد حروف هایش را بگیرید")
-	print("calculator()", "در ترمینال به شما ماشین حساب آماده ای میدهد")
-	print("amk" , "بعد اجرا عددتان را میتوانید داخل ترمینال وارد کنید و سیستم زوج یا فرد بودن را به شما بدهد.")
-	print("make_password()" , "داخل ترمینال رمز ۶ رقمی میسازد.")
-	print("time_H_new()" , "ساعت را چاپ میکند.")
-	print("readfile()" , "در ترمینال به شما اجازه وارد کردن نام فایل میدهد که اگر فایل باشد متن های داخل فایل را میدهد به شما.")
-	print("توجه داشته باشید. در پرانتز دستور ها چیزی وارد نکنید!")
-	print("اما تنها در دستور prt() میتوانید داخل پرانتز چیزی وارد کنید برای چاپ")
+
 # Compatibility aliases for names used in earlier releases.
 game_randomac = game_random
 randomat_randiout = random_randiout
