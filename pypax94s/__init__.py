@@ -147,6 +147,8 @@ def readfile():
 			print(text)
 	except:
 		print("فایل یافت نشد!")
+
+
 def time_H_new():
 	print(datetime.datetime.now().hour)
 time_H_new()
