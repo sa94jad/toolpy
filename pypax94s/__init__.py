@@ -3,6 +3,7 @@
 import random
 import secrets
 import datetime
+import math
 from ping3 import ping
 __version__ = "2.1.1"
 __author__ = "Saj94ad"
@@ -174,7 +175,15 @@ def data_library():
 	print("توجه داشته باشید. در پرانتز دستور ها چیزی وارد نکنید!")
 	print("اما تنها در دستور prt() میتوانید داخل پرانتز چیزی وارد کنید برای چاپ")
 	print("my_ping()" , "این دستور پینگ شما را نشان میدهد")
+	print("sqrt_rand() " , "این تابع میتواند از شما در ترمینال عدد مورد نظر برای رادیکال کردن بگیرد و نتیجه را بدهد!")
 def my_ping():
 	t = ping("8.8.8.8")
 	print(f"Your ping:  {round(t * 1000)} ms" if t else "درخواست نیومد")
+
+def sqrt_rand()
+	try:
+		sqrt = int(input("عدد مورد نظر برای دریافت رادیکال:   "))
+		print(math.sqrt(sqrt))
+	except:
+		print("لطفا عدد وارد کنید! ")
 # Compatibility aliases for names used in 
