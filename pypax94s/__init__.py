@@ -67,9 +67,7 @@ def pi():
     """Print pi to 8 decimal places."""
     print(3.14159265)
 
-def run():
-	while True:
-		continue
+
 def break_code():
 	while True:
 		break
