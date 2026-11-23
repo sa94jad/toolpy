@@ -173,9 +173,8 @@ def data_library():
 	print("readfile()" , "در ترمینال به شما اجازه وارد کردن نام فایل میدهد که اگر فایل باشد متن های داخل فایل را میدهد به شما.")
 	print("توجه داشته باشید. در پرانتز دستور ها چیزی وارد نکنید!")
 	print("اما تنها در دستور prt() میتوانید داخل پرانتز چیزی وارد کنید برای چاپ")
+	print("my_ping()" , "این دستور پینگ شما را نشان میدهد")
 def my_ping():
 	t = ping("8.8.8.8")
 	print(f"Your ping:  {round(t * 1000)} ms" if t else "درخواست نیومد")
-# Compatibility aliases for names used in earlier releases.
-game_randomac = game_random
-randomat_randiout = random_randiout
+# Compatibility aliases for names used in 
