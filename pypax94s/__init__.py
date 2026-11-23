@@ -3,7 +3,7 @@
 import random
 import secrets
 import datetime
-__version__ = "1.3.1"
+__version__ = "2.1.1"
 __author__ = "Saj94ad"
 
 
